@@ -1,0 +1,143 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bb.jpg);
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the background image */
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    backdrop-filter: blur(4px);
+
+
+}
+
+header {
+    
+    width: 100%;
+    z-index: 1000;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: blue;
+}
+
+.header-right {
+    margin-left: 500px; /* Pushes the links to the right */
+}
+
+.header-right a {
+    color: #fff;
+    padding: 14px 20px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    color: aqua; /* Matching the gradient start color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+/* button */
+.resume, .contact{
+    width: 130px;
+    height: 40px;
+    background-color: #749899;
+    border-radius: 20px;
+    
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+button:hover a {
+    color: aqua;
+}
+.profile{
+    width: 400px;
+    padding: 10px;  
+    border-radius: 40vh 100px;
+    margin-left: 700px;
+    margin-top: -210px   ;
+}
+
+.home {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.home p {
+    font-size: 20px;
+    color: wheat;
+}
+
+.home h1 {
+    color: #fff;
+    text-shadow: 
+    0px 0px 10px #3f3f3f,
+    0px 0px 15px #10283b,
+    0px 0px 20px #c2dcf1,
+    0px 0px 21px #125185
+    ;
+}
+
+.about {
+    color: wheat;
+}
+.about h1{
+    text-shadow: 
+    0px 0px 10px #3f3f3f,
+    0px 0px 15px #10283b,
+    0px 0px 20px #c2dcf1,
+    0px 0px 21px #125185
+    ;
+}
+
+.Projects h1{
+   color: wheat;
+   text-shadow: 
+   0px 0px 10px #3f3f3f,
+   0px 0px 15px #10283b,
+   0px 0px 20px #c2dcf1,
+   0px 0px 21px #125185
+   ;
+}
+
+#Porjects .imgs{
+    
+    width: 100px;
+}
+
+.grid-container{
+    display: grid;
+    flex-direction: column;
+}
+
+
+footer{
+    height: 150px;
+}
